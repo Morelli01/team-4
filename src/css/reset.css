@@ -35,11 +35,8 @@ img {
 }
 
 @font-face {
-  font-family: 'Film P3';
-  src: local('Film P3 Narrow'), local('Film-P3-Narrow'),
-    url('FilmP3Narrow.woff2') format('woff2'),
-    url('FilmP3Narrow.woff') format('woff'),
-    url('FilmP3Narrow.ttf') format('truetype');
+  font-family: Film p3;
+  src: url(../fonts/FilmP3Bold.woff), url(../fonts/FilmP3Bold.ttf);
   font-weight: normal;
   font-style: normal;
 }
