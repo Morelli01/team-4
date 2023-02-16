@@ -33,3 +33,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+@font-face {
+  font-family: 'Film P3';
+  src: local('Film P3 Narrow'), local('Film-P3-Narrow'),
+    url('FilmP3Narrow.woff2') format('woff2'),
+    url('FilmP3Narrow.woff') format('woff'),
+    url('FilmP3Narrow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
